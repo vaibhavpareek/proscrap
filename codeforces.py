@@ -5,7 +5,6 @@ try:
 	data = requests.get("https://codeforces.com/profile/"+str(username)).text
 	soup = BeautifulSoup(data,'html.parser')
 	lilen = len(soup.find_all('li'))
-	print(lilen)
 	padding = lilen-48;
 	rank=soup.find_all(class_="user-rank")[0]
 	print("User Ranking : ",str(rank.get_text()).split("\n")[1])
