@@ -1,2 +1,9 @@
 # Proscrap
-### Several programming portals script to know the details by just usernames.
+### Scraping user details from programming portals
+```
+1. Codechef
+2. Codeforces
+3. Interviewbit
+4. GeeksforGeeks
+```
+
